@@ -1,5 +1,5 @@
 {
-  "name": "romannumerals
+  "name": "romannumerals",
   "version": "1.0.0",
   "description": "Roman numerals",
   "main": "lib/roman.js",
