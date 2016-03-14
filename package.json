@@ -1,0 +1,18 @@
+{
+  "name": "romannumerals
+  "version": "1.0.0",
+  "description": "Roman numerals",
+  "main": "lib/roman.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test --recursive"
+  },
+  "author": "Paul Winkler",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
