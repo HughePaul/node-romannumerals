@@ -1,18 +1,33 @@
 {
   "name": "romannumerals",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Roman numerals",
   "main": "lib/roman.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "mocha test --recursive"
+    "test": "npm run lint && npm run unit",
+    "unit": "mocha test --recursive",
+    "lint": "eslint ."
   },
   "author": "Paul Winkler",
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",
+    "eslint": "^2.4.0",
     "mocha": "^2.4.5"
-  }
+  },
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HughePaul/node-romannumerals.git"
+  },
+  "keywords": [
+    "roman",
+    "numerals"
+  ],
+  "bugs": {
+    "url": "https://github.com/HughePaul/node-romannumerals/issues"
+  },
+  "homepage": "https://github.com/HughePaul/node-romannumerals#readme"
 }

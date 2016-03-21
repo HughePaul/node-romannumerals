@@ -1,6 +1,6 @@
 var chai = require('chai');
-var should = chai.should();
 var expect = chai.expect;
+chai.should();
 
 var roman = require('../lib/roman');
 
