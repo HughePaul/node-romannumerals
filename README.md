@@ -44,7 +44,8 @@ Lightweight roman numeral translator. Supports decimal numbers up to 5000000 or 
     roman.toDecimal('I̅X̅CMXCIX');
     9999
 
-    roman.toDecimal('MIM');
+### `toDecimal` can check for valid roman numerals
+    roman.toDecimal('MIM', true);
     Error: MIM is not valid Roman Numerals. Should be MCMXCIX
     roman.toRoman(roman.toDecimal('MIM'));
     'MCMXCIX'

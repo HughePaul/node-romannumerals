@@ -15,9 +15,6 @@
     "eslint": "^2.4.0",
     "mocha": "^2.4.5"
   },
-  "dependencies": {
-    "chai": "^3.5.0"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HughePaul/node-romannumerals.git"
